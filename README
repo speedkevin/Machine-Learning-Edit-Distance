@@ -1,0 +1,48 @@
+KT_Project1 README
+
+Report: knwtech_report2.pdf
+
+How to compile it:
+
+- Global Edit Distance (GED)
+
+Under the porject1 folder:
+
+1. g++ gobal_editdistance.cpp
+
+2. ./a.out
+
+3. Change query and tweet document, please revise these two lines:
+
+#define QUERY_FILE "query1K-1grams.txt"
+#define TWEET_FILE "tweetResult3K.1gram.txt"
+
+
+- Local Edit Distance (LED)
+
+Under the porject1 folder:
+
+1. g++ local_editdistance.cpp
+
+2. ./a.out
+
+3. Change query and tweet document, please revise these two lines:
+
+#define QUERY_FILE "queries.1K.txt"
+#define TWEET_FILE "tweets.3K.noNum.txt"
+
+
+
+Reference:
+
+http://www.csegeek.com/csegeek/view/tutorials/algorithms/dynamic_prog/dp_part3.php
+
+https://code.google.com/p/ngrams/
+
+http://www.cplusplus.com/reference/istream/istream/read/
+
+http://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+
+http://www.cplusplus.com/reference/string/string/c_str/
+
+http://en.cppreference.com/w/cpp/string/byte/strcpy
